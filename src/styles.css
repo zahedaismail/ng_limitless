@@ -1,0 +1,108 @@
+
+@import '~font-awesome/css/font-awesome.css';
+
+body {
+    background: #333;
+    color: #fff;
+}
+  
+  
+.navbar {
+    border-bottom: #fff 3px solid;
+    opacity: 1;
+}
+  
+.navbar-brand,
+.nav-link,
+#main-footer {
+    font-family: 'Dancing Script', cursive;
+}
+  
+#home-section {
+    margin-top: 9em;
+    background: url(./assets/img/home.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 700px;
+    font-family: 'Dancing Script', cursive;
+}
+  
+#home-section h1 {
+    padding-top: 100px;
+}
+  
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+  
+#home-section .home-inner {
+    padding-top: 150px;
+}
+  
+#home-section .card-form {
+    opacity: 0.8;
+}
+  
+#home-section .fas,
+#life-section .fas {
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+  
+#meet-section .fas,
+#share-section .fas {
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+}
+  
+#meet-head-section,
+#meet-section,
+#life-head-section,
+#life-section,
+#read-head-section,
+#read-section,
+#contactModal {
+    font-family: 'Baloo Da 2', cursive;
+}
+  
+.light-blue {
+    background-color: #3292a6;
+}
+  
+/* .modal-body {
+    text-align: center;
+}
+  
+.modal-header {
+    text-align: center;
+} */
+  
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.2;
+}
+  
+@-webkit-keyframes pulsate {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+}
+  

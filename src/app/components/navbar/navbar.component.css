@@ -1,0 +1,10 @@
+.navbar {
+    border-bottom: #fff 3px solid;
+    opacity: 1;
+}
+
+.navbar-brand,
+.nav-link,
+#main-footer {
+  font-family: 'Dancing Script', cursive;
+}
